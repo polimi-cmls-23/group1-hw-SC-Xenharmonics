@@ -57,7 +57,8 @@ playSeq = Button.new(seq_time, bounds:Rect(0,0,80,30)).states_([
 	if(b.value == 1)
 	{p = Pseq([note1, note2, note3, note4, note5, note6], inf).asStream ; {
 inf.do{
-	Synth(\wind_instrument , [\freq , (p.next+70).midicps, \attack_time, 0.05, \decay_time, 0.05, \sustain_time, 0.1, \release_time, 0.05]) ; (tempo).wait ;
+	Synth(\wind_instrument , [\freq , (p.next+70).midicps, \attack_time, 0.05, 
+	\decay_time, 0.05, \sustain_time, 0.1, \release_time, 0.05]) ; (tempo).wait ;
 } }.fork;}
 	{p.stop;}}).font_(Font("Monaco", 14, true));
 ```
@@ -91,3 +92,4 @@ env = EnvGen.ar(Env.new(
 and we wrapped it all into a SynthDef called \wind_instrument, which is then used to generate the synths needed to output sound.
 
 ## UGEN Graph
+![ScreenShot](images/Ugen.PNG)
