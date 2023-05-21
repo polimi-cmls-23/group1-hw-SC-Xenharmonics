@@ -35,10 +35,10 @@ Our project’s GUI appears as above. The main blocks that can be seen are:
   - *Noise selection*: allows to choose the type of noise between **white**, **brown** and **pink**
 + **ADSR**: this block provides a graphical interface to edit the sound's envolope, in particular its **attack**, **decay**, **sustain** and **release**
 + **Filter**: bandpass filter, you can control its:
-  - *Cutoff frequency*:
-  - *Bandwidth*:
-  - *Amplitude*:
-  - *Cutoff curve smoothing*:
+  - *Cutoff frequency*: low frequency cutoff
+  - *Bandwidth*: bandwith of the bandpass, sets the high frequency cutoff
+  - *Amplitude*: sets gain of signal
+  - *Cutoff curve smoothing*: changes slope of cutoff curve
 + **Presets**: the user can choose between two different presets, which simulate a brass instrument and a flute
 + **Sequencer**: six stage sequencer, each row lets the user choose which MIDI note to play (flow from top to bottom). Playback speed can be controlled.
 <ins> **Note to the user** </ins>: using a long release envelope with a fast sequencer playback may result in overcrowding of the server. Caution is advised.
