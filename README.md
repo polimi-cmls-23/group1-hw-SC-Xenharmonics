@@ -9,7 +9,7 @@ The goal of this assignment was to implement an emulation of a wind instrument b
 The process involves using filters to remove specific frequencies from the sound, along with other tools such as envelopes and LFOs (low-frequency oscillators) to shape the sound over time.
 </br></br>
 <p align="center">
-  <img src="images/02.PNG">
+  <img width=70% height=70% src="images/02.PNG">
 </p>
 
 </br>
@@ -51,3 +51,7 @@ A **bandpass filter** is then applied, whose cutoff frequency and bandwidth para
 The last step in the subtractive synthesis of the sound is to apply the **ADSR envelope**, in order to control the gain of the sound over time.
 
 The whole instrument is wrapped it into a single SynthDef called *\wind_instrument*, which needs to be defined in order to generate the synths needed to output sound.
+
+<p align="center">
+  <img src="images/block_diagram.png">
+</p>
