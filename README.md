@@ -9,7 +9,7 @@ The goal of this assignment was to implement an emulation of a wind instrument b
 The process involves using filters to remove specific frequencies from the sound, along with other tools such as envelopes and LFOs (low-frequency oscillators) to shape the sound over time.
 </br></br>
 <p align="center">
-  <img width=70% height=70% src="images/02.PNG">
+  <img width=70% height=70% src="images/sub_synth.png">
 </p>
 
 </br>
