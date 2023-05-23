@@ -40,7 +40,7 @@ Our project’s GUI appears as above. The main blocks that can be seen are:
   - *Amplitude*: sets gain of signal
   - *Cutoff curve smoothing*: changes slope of cutoff curve
 + **Presets**: the user can choose between two different presets, which simulate a brass instrument and a flute
-+ **Sequencer**: six stage sequencer, each row lets the user choose which MIDI note to play (flow from top to bottom). Playback speed can be controlled.
++ **Sequencer**: five stage sequencer, each row lets the user choose which MIDI note to play (flow from top to bottom). Playback speed can be controlled.
 <ins> **Note to the user** </ins>: using a long release envelope with a fast sequencer playback may result in overcrowding of the server. Caution is advised.
 
 ### Sound Generation
